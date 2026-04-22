@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import Link from "next/link";
+import { ProductCard } from "@/components/fixed/ProductCard";
 import { getCategories, products } from "@/lib/site-data";
 
 export const metadata: Metadata = {
@@ -33,21 +33,7 @@ export default function ProductsPage() {
 
       <section className="grid gap-4 md:grid-cols-2">
         {products.map((product) => (
-          <article key={product.id} className="rounded-2xl border bg-white p-5 shadow-sm">
-            <p className="text-xs uppercase tracking-widest text-muted-foreground">{product.category}</p>
-            <h2 className="mt-2 text-xl font-semibold">{product.name}</h2>
-            <p className="mt-3 text-sm text-muted-foreground">{product.description}</p>
-            <div className="mt-4 flex flex-wrap gap-2">
-              {Object.entries(product.specs).slice(0, 2).map(([key, value]) => (
-                <span key={key} className="rounded-md bg-zinc-100 px-2 py-1 text-xs text-zinc-700">
-                  {key}: {value}
-                </span>
-              ))}
-            </div>
-            <Link href={`/products/${product.slug}`} className="mt-5 inline-block text-sm font-semibold">
-              查看完整規格
-            </Link>
-          </article>
+          <ProductCard key={product.id} product={product} />
         ))}
       </section>
     </div>

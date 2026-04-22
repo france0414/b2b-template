@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import Link from "next/link";
+import { ApplicationCard } from "@/components/fixed/ApplicationCard";
 import { applications, getProductsForApplication } from "@/lib/site-data";
 
 export const metadata: Metadata = {
@@ -23,21 +23,24 @@ export default function ApplicationsPage() {
           const relatedProducts = getProductsForApplication(useCase.slug);
 
           return (
-            <article key={useCase.id} className="rounded-2xl border bg-white p-6 shadow-sm">
-              <h2 className="text-xl font-semibold">{useCase.name}</h2>
-              <p className="mt-3 text-sm text-muted-foreground">{useCase.summary}</p>
-              <p className="mt-5 text-xs uppercase tracking-[0.2em] text-zinc-500">推薦產品</p>
-              <div className="mt-2 flex flex-wrap gap-2">
-                {relatedProducts.map((product) => (
-                  <span key={product.id} className="rounded-full bg-zinc-100 px-3 py-1 text-xs text-zinc-700">
-                    {product.name}
-                  </span>
-                ))}
-              </div>
-              <Link href={`/applications/${useCase.slug}`} className="mt-5 inline-block text-sm font-semibold">
-                查看應用詳情
-              </Link>
-            </article>
+            <ApplicationCard
+              key={useCase.id}
+              application={useCase}
+              label="查看應用詳情"
+              showTitlePrefix={false}
+              footer={
+                <>
+                  <p className="mt-5 text-xs uppercase tracking-[0.2em] text-zinc-500">推薦產品</p>
+                  <div className="mt-2 flex flex-wrap gap-2">
+                    {relatedProducts.map((product) => (
+                      <span key={product.id} className="rounded-full bg-zinc-100 px-3 py-1 text-xs text-zinc-700">
+                        {product.name}
+                      </span>
+                    ))}
+                  </div>
+                </>
+              }
+            />
           );
         })}
       </section>

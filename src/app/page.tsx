@@ -1,4 +1,6 @@
 import Link from "next/link";
+import { ApplicationEntrySection } from "@/components/custom/ApplicationEntrySection";
+import { ProductCard } from "@/components/fixed/ProductCard";
 import { applications, company, news, products } from "@/lib/site-data";
 
 export default function Home() {
@@ -35,26 +37,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="space-y-4">
-        <div className="flex items-end justify-between">
-          <h2 className="text-2xl font-semibold">產業應用導覽</h2>
-          <Link href="/applications" className="text-sm text-muted-foreground hover:text-foreground">
-            查看全部應用
-          </Link>
-        </div>
-        <div className="grid gap-4 md:grid-cols-3">
-          {applications.slice(0, 3).map((useCase) => (
-            <article key={useCase.id} className="rounded-2xl border bg-white p-5 shadow-sm">
-              <p className="text-xs uppercase tracking-widest text-muted-foreground">Application</p>
-              <h3 className="mt-2 text-lg font-semibold">{useCase.name}</h3>
-              <p className="mt-3 text-sm text-muted-foreground">{useCase.summary}</p>
-              <Link href={`/applications/${useCase.slug}`} className="mt-4 inline-block text-sm font-semibold">
-                探索解決方案
-              </Link>
-            </article>
-          ))}
-        </div>
-      </section>
+      <ApplicationEntrySection applications={applications} />
 
       <section className="space-y-4">
         <div className="flex items-end justify-between">
@@ -65,14 +48,7 @@ export default function Home() {
         </div>
         <div className="grid gap-4 md:grid-cols-3">
           {products.slice(0, 3).map((product) => (
-            <article key={product.id} className="rounded-2xl border bg-white p-5 shadow-sm">
-              <p className="text-xs uppercase tracking-widest text-muted-foreground">{product.category}</p>
-              <h3 className="mt-2 text-lg font-semibold">{product.name}</h3>
-              <p className="mt-3 text-sm text-muted-foreground">{product.description}</p>
-              <Link href={`/products/${product.slug}`} className="mt-4 inline-block text-sm font-semibold">
-                查看詳情
-              </Link>
-            </article>
+            <ProductCard key={product.id} product={product} compact />
           ))}
         </div>
       </section>

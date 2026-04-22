@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import Link from "next/link";
+import { ProductCard } from "@/components/fixed/ProductCard";
 import { notFound } from "next/navigation";
 import { applications, getApplicationBySlug, getProductsForApplication } from "@/lib/site-data";
 
@@ -48,14 +48,7 @@ export default async function ApplicationDetailPage({ params }: ApplicationDetai
         <p className="mt-2 text-sm text-muted-foreground">從應用回到產品，快速比較規格與導入可行性。</p>
         <div className="mt-5 grid gap-4 md:grid-cols-2">
           {relatedProducts.map((product) => (
-            <article key={product.id} className="rounded-xl border bg-zinc-50 p-4">
-              <p className="text-xs uppercase tracking-widest text-muted-foreground">{product.category}</p>
-              <h3 className="mt-1 text-lg font-semibold">{product.name}</h3>
-              <p className="mt-2 text-sm text-zinc-600">{product.description}</p>
-              <Link href={`/products/${product.slug}`} className="mt-3 inline-block text-sm font-semibold">
-                前往產品頁
-              </Link>
-            </article>
+            <ProductCard key={product.id} product={product} />
           ))}
         </div>
       </section>
