@@ -1,0 +1,25 @@
+{
+  "name": "XX Precision Co., Ltd.",
+  "name_en": "XX Precision Co., Ltd.",
+  "slogan": "Precision Manufacturing, Quality Assured",
+  "description": "XX Precision provides end-to-end precision machining and automation integration for B2B customers, from prototyping to mass production delivery.",
+  "phone": "+886-2-2788-5566",
+  "email": "sales@xx-precision.com",
+  "address": "No.88, Sanchong Rd., Nangang Dist., Taipei City, Taiwan",
+  "address_en": "No.88, Sanchong Rd., Nangang Dist., Taipei City, Taiwan",
+  "social": {
+    "facebook": "https://facebook.com/xxprecision",
+    "line": "https://line.me/ti/p/xxprecision",
+    "youtube": "https://youtube.com/@xxprecision"
+  },
+  "logo": "media/logo.svg",
+  "seo": {
+    "meta_title": "XX Precision Co., Ltd.",
+    "meta_description": "A B2B precision manufacturing and automation integration supplier.",
+    "og_image": "",
+    "keywords": ["precision machining", "automation", "B2B"],
+    "schema_type": "Organization"
+  },
+  "_source": "ai_draft",
+  "_review": false
+}

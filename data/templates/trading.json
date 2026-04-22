@@ -1,0 +1,33 @@
+{
+    "name": "貿易商 / 代理",
+    "blocks": [
+        {
+            "block": "HeroBanner",
+            "variant": "carousel"
+        },
+        {
+            "block": "CategoryShowcase",
+            "variant": "cards"
+        },
+        {
+            "block": "ProductHighlight",
+            "variant": "grid-4"
+        },
+        {
+            "block": "AboutPreview",
+            "variant": "text-image"
+        },
+        {
+            "block": "ClientLogos",
+            "variant": "grid"
+        },
+        {
+            "block": "NewsLatest",
+            "variant": "list"
+        },
+        {
+            "block": "ContactCTA",
+            "variant": "simple"
+        }
+    ]
+}

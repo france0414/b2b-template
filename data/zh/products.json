@@ -1,0 +1,118 @@
+[
+  {
+    "id": "p001",
+    "slug": "cnc-lathe-vl-25",
+    "name": "CNC 車床 VL-25",
+    "category": "cnc-lathe",
+    "description": "高精度數控車床，適用於精密零件加工與中小批量生產。",
+    "specs": {
+      "主軸轉速": "6000 rpm",
+      "加工直徑": "250 mm",
+      "精度": "±0.005 mm"
+    },
+    "images": {
+      "hero": "media/p001_hero.jpg",
+      "gallery": []
+    },
+    "inquirable": true,
+    "minOrderQuantity": 1,
+    "variants": [],
+    "variantAxis": [],
+    "seo": {
+      "meta_title": "CNC 車床 VL-25",
+      "meta_description": "高精度 CNC 車床，穩定加工效率，支援精密零件製造。",
+      "og_image": "",
+      "keywords": ["CNC", "車床", "精密加工"],
+      "schema_type": "Product"
+    },
+    "_source": "ai_draft",
+    "_review": false
+  },
+  {
+    "id": "p002",
+    "slug": "vertical-machining-center-vm-850",
+    "name": "立式加工中心 VM-850",
+    "category": "machining-center",
+    "description": "適合多面向銑削加工，兼顧加工效率與表面品質。",
+    "specs": {
+      "工作台尺寸": "1000 x 500 mm",
+      "X/Y/Z 行程": "850/500/550 mm",
+      "刀庫容量": "24 tools"
+    },
+    "images": {
+      "hero": "media/p002_hero.jpg",
+      "gallery": []
+    },
+    "inquirable": true,
+    "minOrderQuantity": 1,
+    "variants": [],
+    "variantAxis": [],
+    "seo": {
+      "meta_title": "立式加工中心 VM-850",
+      "meta_description": "VM-850 提供高穩定性與高效率，適用各類加工需求。",
+      "og_image": "",
+      "keywords": ["立式加工中心", "CNC", "銑削"],
+      "schema_type": "Product"
+    },
+    "_source": "ai_draft",
+    "_review": false
+  },
+  {
+    "id": "p003",
+    "slug": "hydraulic-chuck-hc-10",
+    "name": "液壓夾頭 HC-10",
+    "category": "workholding",
+    "description": "高夾持力液壓夾頭，適用高轉速與高精度加工場景。",
+    "specs": {
+      "夾持範圍": "10-65 mm",
+      "最高轉速": "4500 rpm",
+      "重複定位精度": "0.01 mm"
+    },
+    "images": {
+      "hero": "media/p003_hero.jpg",
+      "gallery": []
+    },
+    "inquirable": true,
+    "minOrderQuantity": 2,
+    "variants": [],
+    "variantAxis": [],
+    "seo": {
+      "meta_title": "液壓夾頭 HC-10",
+      "meta_description": "穩定夾持與快速換裝，提升機台運轉效率。",
+      "og_image": "",
+      "keywords": ["夾頭", "液壓", "workholding"],
+      "schema_type": "Product"
+    },
+    "_source": "ai_draft",
+    "_review": false
+  },
+  {
+    "id": "p004",
+    "slug": "auto-bar-feeder-abf-12",
+    "name": "自動送料機 ABF-12",
+    "category": "automation",
+    "description": "為車床生產線提供穩定送料，降低人工介入並提升連續生產能力。",
+    "specs": {
+      "適用棒材直徑": "5-45 mm",
+      "最大棒材長度": "3200 mm",
+      "送料速度": "0-800 mm/s"
+    },
+    "images": {
+      "hero": "media/p004_hero.jpg",
+      "gallery": []
+    },
+    "inquirable": true,
+    "minOrderQuantity": 1,
+    "variants": [],
+    "variantAxis": [],
+    "seo": {
+      "meta_title": "自動送料機 ABF-12",
+      "meta_description": "適用中高產量加工線，提升產線自動化效率。",
+      "og_image": "",
+      "keywords": ["送料機", "自動化", "bar feeder"],
+      "schema_type": "Product"
+    },
+    "_source": "ai_draft",
+    "_review": false
+  }
+]

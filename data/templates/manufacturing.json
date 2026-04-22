@@ -1,0 +1,37 @@
+{
+    "name": "製造業 / OEM",
+    "blocks": [
+        {
+            "block": "HeroBanner",
+            "variant": "video"
+        },
+        {
+            "block": "ProductHighlight",
+            "variant": "grid-3"
+        },
+        {
+            "block": "StatsCounter",
+            "variant": "4-columns"
+        },
+        {
+            "block": "CategoryShowcase",
+            "variant": "icons"
+        },
+        {
+            "block": "Certifications",
+            "variant": "badges"
+        },
+        {
+            "block": "ClientLogos",
+            "variant": "scroll"
+        },
+        {
+            "block": "NewsLatest",
+            "variant": "cards-3"
+        },
+        {
+            "block": "ContactCTA",
+            "variant": "with-form"
+        }
+    ]
+}

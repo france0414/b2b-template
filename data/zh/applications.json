@@ -1,0 +1,64 @@
+[
+  {
+    "id": "a001",
+    "slug": "automotive-components",
+    "name": "汽車零組件",
+    "summary": "針對轉向、傳動與制動關鍵件，提供穩定批量加工方案。",
+    "description": "汽車零組件應用重視批次穩定、尺寸一致與可追溯性。我們透過標準化治具、製程參數管理與檢測流程，協助客戶縮短打樣到量產的導入時間，並在交期內維持品質穩定。",
+    "relatedProductSlugs": [
+      "cnc-lathe-vl-25",
+      "vertical-machining-center-vm-850",
+      "hydraulic-chuck-hc-10"
+    ],
+    "seo": {
+      "meta_title": "汽車零組件應用",
+      "meta_description": "汽車零組件加工應用方案，兼顧精度與量產交付。",
+      "og_image": "",
+      "keywords": ["汽車零件", "精密加工", "量產"],
+      "schema_type": "Service"
+    },
+    "_source": "ai_draft",
+    "_review": false
+  },
+  {
+    "id": "a002",
+    "slug": "industrial-automation-equipment",
+    "name": "工業自動化設備",
+    "summary": "用於設備本體與模組件加工，重視效率與長時間穩定運行。",
+    "description": "面向自動化設備製造商，我們提供高彈性加工能力，涵蓋機構件、定位件與整機關鍵零件。透過穩定供應與產線協作，支援客戶在專案期程內完成出貨與驗收。",
+    "relatedProductSlugs": [
+      "vertical-machining-center-vm-850",
+      "auto-bar-feeder-abf-12",
+      "hydraulic-chuck-hc-10"
+    ],
+    "seo": {
+      "meta_title": "工業自動化設備應用",
+      "meta_description": "工業自動化設備關鍵零件加工與供應服務。",
+      "og_image": "",
+      "keywords": ["工業自動化", "設備製造", "機構件"],
+      "schema_type": "Service"
+    },
+    "_source": "ai_draft",
+    "_review": false
+  },
+  {
+    "id": "a003",
+    "slug": "general-machinery-export",
+    "name": "通用機械外銷",
+    "summary": "支援外銷客戶多規格需求，兼顧交期、文件與品質一致性。",
+    "description": "針對外銷市場，我們提供可對接多國規格的加工能力與交付支持，包含批次品質控管、出貨前檢測與技術資料準備，協助客戶提升國際市場信任與接單效率。",
+    "relatedProductSlugs": [
+      "cnc-lathe-vl-25",
+      "auto-bar-feeder-abf-12"
+    ],
+    "seo": {
+      "meta_title": "通用機械外銷應用",
+      "meta_description": "面向外銷市場的機械加工與交付整合方案。",
+      "og_image": "",
+      "keywords": ["外銷", "機械", "國際市場"],
+      "schema_type": "Service"
+    },
+    "_source": "ai_draft",
+    "_review": false
+  }
+]

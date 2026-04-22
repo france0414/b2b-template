@@ -1,0 +1,65 @@
+[
+  {
+    "id": "n001",
+    "slug": "production-line-upgrade-2026",
+    "title": "Production Line Upgrade Improves Delivery Stability",
+    "date": "2026-04-20",
+    "category": "company",
+    "excerpt": "We upgraded key production stations to shorten changeover time and improve delivery consistency.",
+    "content": "This upgrade focused on high-load machining stations and standardized fixture workflows.\n\nAfter deployment, setup transitions became faster and operator variance was reduced.\n\nWe will continue improving production visibility to help customers track project progress more efficiently.",
+    "images": {
+      "hero": ""
+    },
+    "seo": {
+      "meta_title": "Production Line Upgrade Improves Delivery Stability",
+      "meta_description": "Key station upgrades deliver better lead-time stability and quality consistency.",
+      "og_image": "",
+      "keywords": ["production", "delivery", "manufacturing"],
+      "schema_type": "Article"
+    },
+    "_source": "ai_draft",
+    "_review": false
+  },
+  {
+    "id": "n002",
+    "slug": "new-product-abf-12-release",
+    "title": "ABF-12 Auto Bar Feeder Officially Released",
+    "date": "2026-04-16",
+    "category": "product",
+    "excerpt": "The new generation feeder supports longer bars and higher feed rates for continuous operations.",
+    "content": "ABF-12 introduces improvements in mechanical stability and control logic for long-run operation.\n\nServiceability is also improved to reduce maintenance downtime.",
+    "images": {
+      "hero": ""
+    },
+    "seo": {
+      "meta_title": "ABF-12 Auto Bar Feeder Officially Released",
+      "meta_description": "A new bar feeder model designed for more stable, continuous machining workflows.",
+      "og_image": "",
+      "keywords": ["bar feeder", "product launch", "automation"],
+      "schema_type": "Article"
+    },
+    "_source": "ai_draft",
+    "_review": false
+  },
+  {
+    "id": "n003",
+    "slug": "taipei-industrial-expo-2026",
+    "title": "Taipei Industrial Expo 2026 Preview",
+    "date": "2026-04-12",
+    "category": "event",
+    "excerpt": "We will showcase workholding and automation solutions at the Taipei Industrial Expo this June.",
+    "content": "Our booth will feature integrated production setups across machining centers, chuck systems, and feeding modules.\n\nVisitors are welcome to schedule technical meetings in advance for focused discussions.",
+    "images": {
+      "hero": ""
+    },
+    "seo": {
+      "meta_title": "Taipei Industrial Expo 2026 Preview",
+      "meta_description": "Preview of our exhibit plan and technical sessions for Taipei Industrial Expo 2026.",
+      "og_image": "",
+      "keywords": ["expo", "event", "industry"],
+      "schema_type": "Article"
+    },
+    "_source": "ai_draft",
+    "_review": false
+  }
+]

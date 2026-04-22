@@ -1,0 +1,118 @@
+[
+  {
+    "id": "p001",
+    "slug": "cnc-lathe-vl-25",
+    "name": "CNC Lathe VL-25",
+    "category": "cnc-lathe",
+    "description": "High-precision CNC lathe for precision parts machining and short-run production.",
+    "specs": {
+      "Spindle Speed": "6000 rpm",
+      "Max Diameter": "250 mm",
+      "Accuracy": "±0.005 mm"
+    },
+    "images": {
+      "hero": "media/p001_hero.jpg",
+      "gallery": []
+    },
+    "inquirable": true,
+    "minOrderQuantity": 1,
+    "variants": [],
+    "variantAxis": [],
+    "seo": {
+      "meta_title": "CNC Lathe VL-25",
+      "meta_description": "A stable CNC lathe designed for precision and repeatable output.",
+      "og_image": "",
+      "keywords": ["CNC", "Lathe", "Machining"],
+      "schema_type": "Product"
+    },
+    "_source": "ai_draft",
+    "_review": false
+  },
+  {
+    "id": "p002",
+    "slug": "vertical-machining-center-vm-850",
+    "name": "Vertical Machining Center VM-850",
+    "category": "machining-center",
+    "description": "Built for multi-side milling jobs with reliable throughput and consistent quality.",
+    "specs": {
+      "Table Size": "1000 x 500 mm",
+      "X/Y/Z Travel": "850/500/550 mm",
+      "Tool Magazine": "24 tools"
+    },
+    "images": {
+      "hero": "media/p002_hero.jpg",
+      "gallery": []
+    },
+    "inquirable": true,
+    "minOrderQuantity": 1,
+    "variants": [],
+    "variantAxis": [],
+    "seo": {
+      "meta_title": "Vertical Machining Center VM-850",
+      "meta_description": "VM-850 delivers stable machining performance for broad industrial use.",
+      "og_image": "",
+      "keywords": ["VMC", "CNC", "Milling"],
+      "schema_type": "Product"
+    },
+    "_source": "ai_draft",
+    "_review": false
+  },
+  {
+    "id": "p003",
+    "slug": "hydraulic-chuck-hc-10",
+    "name": "Hydraulic Chuck HC-10",
+    "category": "workholding",
+    "description": "High clamping-force chuck for high-speed operations and precision runs.",
+    "specs": {
+      "Clamping Range": "10-65 mm",
+      "Max Speed": "4500 rpm",
+      "Repeat Accuracy": "0.01 mm"
+    },
+    "images": {
+      "hero": "media/p003_hero.jpg",
+      "gallery": []
+    },
+    "inquirable": true,
+    "minOrderQuantity": 2,
+    "variants": [],
+    "variantAxis": [],
+    "seo": {
+      "meta_title": "Hydraulic Chuck HC-10",
+      "meta_description": "Improve cycle stability and setup efficiency with HC-10.",
+      "og_image": "",
+      "keywords": ["Chuck", "Hydraulic", "Workholding"],
+      "schema_type": "Product"
+    },
+    "_source": "ai_draft",
+    "_review": false
+  },
+  {
+    "id": "p004",
+    "slug": "auto-bar-feeder-abf-12",
+    "name": "Auto Bar Feeder ABF-12",
+    "category": "automation",
+    "description": "Automates lathe feeding to reduce manual load and support continuous operation.",
+    "specs": {
+      "Applicable Bar Diameter": "5-45 mm",
+      "Max Bar Length": "3200 mm",
+      "Feed Speed": "0-800 mm/s"
+    },
+    "images": {
+      "hero": "media/p004_hero.jpg",
+      "gallery": []
+    },
+    "inquirable": true,
+    "minOrderQuantity": 1,
+    "variants": [],
+    "variantAxis": [],
+    "seo": {
+      "meta_title": "Auto Bar Feeder ABF-12",
+      "meta_description": "A practical automation unit for medium to high volume turning lines.",
+      "og_image": "",
+      "keywords": ["Automation", "Bar Feeder", "Turning"],
+      "schema_type": "Product"
+    },
+    "_source": "ai_draft",
+    "_review": false
+  }
+]

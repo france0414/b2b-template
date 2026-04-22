@@ -1,0 +1,33 @@
+{
+    "name": "食品 / 農業",
+    "blocks": [
+        {
+            "block": "HeroBanner",
+            "variant": "image"
+        },
+        {
+            "block": "AboutPreview",
+            "variant": "stats"
+        },
+        {
+            "block": "ProductHighlight",
+            "variant": "featured-1"
+        },
+        {
+            "block": "Certifications",
+            "variant": "cards"
+        },
+        {
+            "block": "VideoShowcase",
+            "variant": "single"
+        },
+        {
+            "block": "Testimonials",
+            "variant": "quotes"
+        },
+        {
+            "block": "ContactCTA",
+            "variant": "with-form"
+        }
+    ]
+}

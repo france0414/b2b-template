@@ -1,0 +1,25 @@
+{
+  "name": "XX 精機股份有限公司",
+  "name_en": "XX Precision Co., Ltd.",
+  "slogan": "精密製造，品質保證",
+  "description": "XX 精機專注於精密加工與自動化整合，提供從樣品開發到量產交付的一站式服務，服務涵蓋工具機、汽車零件與設備製造等 B2B 客戶。",
+  "phone": "+886-2-2788-5566",
+  "email": "sales@xx-precision.com",
+  "address": "台北市南港區三重路 88 號",
+  "address_en": "No.88, Sanchong Rd., Nangang Dist., Taipei City, Taiwan",
+  "social": {
+    "facebook": "https://facebook.com/xxprecision",
+    "line": "https://line.me/ti/p/xxprecision",
+    "youtube": "https://youtube.com/@xxprecision"
+  },
+  "logo": "media/logo.svg",
+  "seo": {
+    "meta_title": "XX 精機股份有限公司",
+    "meta_description": "B2B 精密製造與自動化整合解決方案供應商。",
+    "og_image": "",
+    "keywords": ["精密加工", "自動化", "B2B"],
+    "schema_type": "Organization"
+  },
+  "_source": "ai_draft",
+  "_review": false
+}

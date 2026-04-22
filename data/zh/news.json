@@ -1,0 +1,65 @@
+[
+  {
+    "id": "n001",
+    "slug": "production-line-upgrade-2026",
+    "title": "產線升級完成，交期穩定性提升",
+    "date": "2026-04-20",
+    "category": "company",
+    "excerpt": "我們完成關鍵加工站升級，縮短換線時間，提升整體交付穩定性。",
+    "content": "本次升級聚焦在高頻使用站點，導入標準化治具流程與設備連線監控。\n\n升級後，我們在中小批量接單的換線效率提升，並降低了人為調機誤差。\n\n未來將持續優化產線資訊化，讓客戶能更快取得專案進度。",
+    "images": {
+      "hero": ""
+    },
+    "seo": {
+      "meta_title": "產線升級完成，交期穩定性提升",
+      "meta_description": "關鍵站點升級完成，提升交付效率與品質穩定性。",
+      "og_image": "",
+      "keywords": ["產線升級", "交期", "製造"],
+      "schema_type": "Article"
+    },
+    "_source": "ai_draft",
+    "_review": false
+  },
+  {
+    "id": "n002",
+    "slug": "new-product-abf-12-release",
+    "title": "ABF-12 自動送料機正式發表",
+    "date": "2026-04-16",
+    "category": "product",
+    "excerpt": "新一代送料機可支援更長棒材與更高送料速度，適合連續加工需求。",
+    "content": "ABF-12 在機構穩定性與控制邏輯上做了多項優化，對長時間連續運作場景更友善。\n\n新版也強化維護便利性，降低保養中斷時間。",
+    "images": {
+      "hero": ""
+    },
+    "seo": {
+      "meta_title": "ABF-12 自動送料機正式發表",
+      "meta_description": "新一代自動送料機，提升連續加工效率。",
+      "og_image": "",
+      "keywords": ["送料機", "新產品", "自動化"],
+      "schema_type": "Article"
+    },
+    "_source": "ai_draft",
+    "_review": false
+  },
+  {
+    "id": "n003",
+    "slug": "taipei-industrial-expo-2026",
+    "title": "2026 台北工業展參展預告",
+    "date": "2026-04-12",
+    "category": "event",
+    "excerpt": "我們將於 6 月參與台北工業展，展示最新夾治具與自動化方案。",
+    "content": "展會期間將展示加工中心、夾持系統與送料模組的整合案例，並安排現場技術交流。\n\n歡迎提前預約會談時段，以便安排對應產線顧問。",
+    "images": {
+      "hero": ""
+    },
+    "seo": {
+      "meta_title": "2026 台北工業展參展預告",
+      "meta_description": "展會將展示最新自動化方案與整線整合案例。",
+      "og_image": "",
+      "keywords": ["工業展", "展會", "技術交流"],
+      "schema_type": "Article"
+    },
+    "_source": "ai_draft",
+    "_review": false
+  }
+]

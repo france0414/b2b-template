@@ -1,0 +1,64 @@
+[
+  {
+    "id": "a001",
+    "slug": "automotive-components",
+    "name": "Automotive Components",
+    "summary": "Stable production solutions for steering, drivetrain, and braking components.",
+    "description": "Automotive component projects require high batch stability, dimensional consistency, and traceability. We support this with standardized fixtures, controlled process parameters, and documented inspection workflows.",
+    "relatedProductSlugs": [
+      "cnc-lathe-vl-25",
+      "vertical-machining-center-vm-850",
+      "hydraulic-chuck-hc-10"
+    ],
+    "seo": {
+      "meta_title": "Automotive Components Applications",
+      "meta_description": "Machining application solutions for automotive components.",
+      "og_image": "",
+      "keywords": ["automotive", "precision machining", "mass production"],
+      "schema_type": "Service"
+    },
+    "_source": "ai_draft",
+    "_review": false
+  },
+  {
+    "id": "a002",
+    "slug": "industrial-automation-equipment",
+    "name": "Industrial Automation Equipment",
+    "summary": "Reliable machining support for machine structures and precision modules.",
+    "description": "For automation equipment builders, we provide flexible machining for structural and positioning parts. Our delivery model helps clients complete project milestones and acceptance schedules on time.",
+    "relatedProductSlugs": [
+      "vertical-machining-center-vm-850",
+      "auto-bar-feeder-abf-12",
+      "hydraulic-chuck-hc-10"
+    ],
+    "seo": {
+      "meta_title": "Industrial Automation Equipment Applications",
+      "meta_description": "Machining and supply support for industrial automation equipment.",
+      "og_image": "",
+      "keywords": ["automation", "equipment", "machining"],
+      "schema_type": "Service"
+    },
+    "_source": "ai_draft",
+    "_review": false
+  },
+  {
+    "id": "a003",
+    "slug": "general-machinery-export",
+    "name": "General Machinery Export",
+    "summary": "Supports export-oriented machinery programs with stable quality and lead time.",
+    "description": "For export markets, we support multi-spec production requirements with stable quality, pre-shipment checks, and technical documentation support to improve global customer trust.",
+    "relatedProductSlugs": [
+      "cnc-lathe-vl-25",
+      "auto-bar-feeder-abf-12"
+    ],
+    "seo": {
+      "meta_title": "General Machinery Export Applications",
+      "meta_description": "Integrated machining and delivery support for export-oriented machinery products.",
+      "og_image": "",
+      "keywords": ["export", "machinery", "global market"],
+      "schema_type": "Service"
+    },
+    "_source": "ai_draft",
+    "_review": false
+  }
+]
