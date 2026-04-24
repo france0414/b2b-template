@@ -1,0 +1,167 @@
+.page {
+  --ink-950: #0f172a;
+  --ink-700: #334155;
+  --ink-500: #64748b;
+  --line: #dbe3ed;
+  --paper: #fcfcfa;
+  --white: #ffffff;
+  --accent: #0b5fff;
+  --accent-soft: #e8efff;
+  background: var(--paper);
+  color: var(--ink-950);
+}
+
+.bleed {
+  width: 100vw;
+  margin-left: calc(50% - 50vw);
+  margin-right: calc(50% - 50vw);
+  padding-left: clamp(1rem, 4vw, 4rem);
+  padding-right: clamp(1rem, 4vw, 4rem);
+}
+
+.hero {
+  border-bottom: 1px solid var(--line);
+  background: linear-gradient(180deg, #ffffff 0%, #f7faff 100%);
+  padding-top: 4rem;
+  padding-bottom: 3.2rem;
+}
+
+.heroTop {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: 1.2fr 0.8fr;
+  align-items: end;
+}
+
+.eyebrow {
+  font-size: 0.72rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--ink-500);
+}
+
+.heroTitle {
+  margin-top: 0.65rem;
+  max-width: 17ch;
+  font-size: clamp(2.2rem, 6vw, 5.2rem);
+  line-height: 0.95;
+  letter-spacing: -0.03em;
+  font-weight: 700;
+}
+
+.heroAside {
+  border-left: 1px solid var(--line);
+  padding-left: 1.25rem;
+}
+
+.heroMeta {
+  margin-top: 1.25rem;
+  display: grid;
+  gap: 0.7rem;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.metaCard {
+  border: 1px solid var(--line);
+  border-radius: 0.75rem;
+  background: var(--white);
+  padding: 0.8rem;
+}
+
+.section {
+  margin-top: 3.2rem;
+}
+
+.sectionHead {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  gap: 0.8rem;
+}
+
+.sectionTitle {
+  margin-top: 0.35rem;
+  font-size: clamp(1.55rem, 2.5vw, 2.3rem);
+  line-height: 1.15;
+  letter-spacing: -0.02em;
+}
+
+.productLayout {
+  margin-top: 1rem;
+  display: grid;
+  gap: 0.85rem;
+  grid-template-columns: 1.3fr 1fr 1fr;
+}
+
+.productFeatured,
+.productCard,
+.appCard,
+.newsCard {
+  border: 1px solid var(--line);
+  border-radius: 0.9rem;
+  background: var(--white);
+  padding: 1rem;
+}
+
+.productFeatured {
+  background: linear-gradient(140deg, #ffffff 0%, #f3f7ff 100%);
+}
+
+.processBand {
+  margin-top: 1rem;
+  border: 1px solid #d7e0f2;
+  border-radius: 1rem;
+  background: #f0f5ff;
+  padding: 1rem;
+}
+
+.processGrid {
+  display: grid;
+  gap: 0.75rem;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.processStep {
+  border: 1px solid #cdd8ef;
+  border-radius: 0.75rem;
+  background: #ffffff;
+  padding: 0.8rem;
+}
+
+.applicationLayout,
+.insightLayout {
+  margin-top: 1rem;
+  display: grid;
+  gap: 0.85rem;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.finalBand {
+  margin-top: 3.2rem;
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+  background: #ffffff;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+@media (max-width: 1024px) {
+  .heroTop,
+  .productLayout,
+  .processGrid,
+  .applicationLayout,
+  .insightLayout {
+    grid-template-columns: 1fr;
+  }
+
+  .heroAside {
+    border-left: 0;
+    padding-left: 0;
+    border-top: 1px solid var(--line);
+    padding-top: 1rem;
+  }
+
+  .heroMeta {
+    grid-template-columns: 1fr;
+  }
+}

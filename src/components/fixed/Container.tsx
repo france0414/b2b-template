@@ -12,7 +12,7 @@ interface ContainerProps {
 }
 
 const VARIANT_MAP: Record<ContainerVariant, string> = {
-  wide: "max-w-[1500px]",
+  wide: "max-w-[1550px]",
   standard: "max-w-[1200px]",
   compact: "max-w-[900px]",
 };

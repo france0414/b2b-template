@@ -1,0 +1,444 @@
+.page {
+  background: #ffffff;
+  color: #161616;
+  font-family: "IBM Plex Sans", "Helvetica Neue", Arial, sans-serif;
+}
+
+.bleed {
+  width: 100%;
+}
+
+.shell {
+  max-width: 1550px;
+  margin: 0 auto;
+  padding-left: clamp(1rem, 4vw, 4rem);
+  padding-right: clamp(1rem, 4vw, 4rem);
+}
+
+.sectionStack {
+  display: contents;
+}
+
+.hero {
+  background: #ffffff;
+  color: #161616;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.heroGrid {
+  display: grid;
+  grid-template-columns: 1.3fr 1fr;
+  gap: 1.25rem;
+  align-items: center;
+}
+
+.heroMain {
+  text-align: left;
+}
+
+.heroRail {
+  width: 100%;
+  border-radius: 0;
+  border: 1px solid #c6c6c6;
+  padding: 1rem;
+  background: #f4f4f4;
+}
+
+.heroTitle {
+  font-size: clamp(2.25rem, 5.2vw, 3.75rem);
+  line-height: 1.17;
+  letter-spacing: 0;
+  font-weight: 300;
+  max-width: 15ch;
+  margin: 0;
+}
+
+.heroLead {
+  margin: 1.5rem 0 0;
+  max-width: 60ch;
+  color: #525252;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.heroActions {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: flex-start;
+  gap: 0.8rem;
+  flex-wrap: wrap;
+}
+
+.primaryAction {
+  border-radius: 0;
+  background: #0f62fe;
+  color: #ffffff;
+  padding: 0.875rem 1rem;
+  font-size: 0.875rem;
+  font-weight: 600;
+}
+
+.secondaryAction {
+  border-radius: 0;
+  border: 1px solid #0f62fe;
+  color: #0f62fe;
+  padding: 0.875rem 1rem;
+  font-size: 0.875rem;
+  font-weight: 600;
+  background: transparent;
+}
+
+.metricGrid {
+  margin-top: 0;
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: 1fr;
+}
+
+.metric {
+  background: #ffffff;
+  border: 1px solid #c6c6c6;
+  border-radius: 0;
+  padding: 1rem;
+}
+
+.metricValue {
+  font-size: clamp(1.8rem, 3.2vw, 2.8rem);
+  font-weight: 700;
+}
+
+.metricLabel {
+  font-size: 0.74rem;
+  letter-spacing: 0.11em;
+  text-transform: uppercase;
+  color: #6f6f6f;
+}
+
+.mediaStrip {
+  max-width: 1550px;
+  box-sizing: border-box;
+  margin: 1.25rem auto 0;
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  padding-left: clamp(1rem, 4vw, 4rem);
+  padding-right: clamp(1rem, 4vw, 4rem);
+}
+
+.mediaCard {
+  height: 12rem;
+  border-radius: 0;
+  border: 1px solid #c6c6c6;
+  box-shadow: none;
+  overflow: hidden;
+  position: relative;
+  background-image: linear-gradient(rgba(15, 23, 42, 0.1), rgba(15, 23, 42, 0.45)), url('/images/stitch/banner-overhead.png');
+  background-size: cover;
+}
+
+.mediaCard:nth-child(1) {
+  background-image: linear-gradient(rgba(15, 23, 42, 0.12), rgba(15, 23, 42, 0.52)), url('/images/stitch/banner-automated.png');
+  background-position: center;
+}
+
+.mediaCard:nth-child(2) {
+  background-image: linear-gradient(rgba(15, 23, 42, 0.15), rgba(15, 23, 42, 0.55)), url('/images/stitch/engineer-tablet.png');
+  background-position: center;
+}
+
+.mediaCard:nth-child(3) {
+  background-image: linear-gradient(rgba(15, 23, 42, 0.15), rgba(15, 23, 42, 0.58)), url('/images/stitch/product-closeup.png');
+  background-position: right bottom;
+}
+
+.mediaLabel {
+  position: absolute;
+  left: 0.75rem;
+  bottom: 0.75rem;
+  border-radius: 999px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  background: rgba(0, 0, 0, 0.45);
+  color: #ffffff;
+  font-size: 0.65rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  padding: 0.2rem 0.5rem;
+}
+
+.section {
+  padding-top: 5rem;
+}
+
+.sectionHead {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.kicker {
+  font-size: 0.73rem;
+  letter-spacing: 0.11em;
+  text-transform: uppercase;
+  color: #0f62fe;
+  font-weight: 700;
+}
+
+.title {
+  margin-top: 0.25rem;
+  font-size: clamp(1.8rem, 4vw, 3rem);
+  line-height: 1.2;
+  letter-spacing: 0;
+  font-weight: 400;
+}
+
+.products {
+  display: grid;
+  gap: 1.25rem;
+  grid-template-columns: 1fr 1fr;
+}
+
+.featured {
+  background: #ffffff;
+  border-radius: 0;
+  border: 1px solid #c6c6c6;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.featuredVisual {
+  min-height: 14rem;
+  background-image: linear-gradient(rgba(15, 23, 42, 0.08), rgba(15, 23, 42, 0.42)), url('/images/stitch/product-module.png');
+  background-size: cover;
+  background-position: center;
+}
+
+.featuredBody {
+  padding: 1.5rem;
+}
+
+.scanCol {
+  display: grid;
+  gap: 1rem;
+}
+
+.scanCard {
+  background: #ffffff;
+  border: 1px solid #c6c6c6;
+  border-radius: 0;
+  padding: 1rem;
+}
+
+.process {
+  margin-top: 5rem;
+  background: #f4f4f4;
+  color: #161616;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.processLead {
+  max-width: 60ch;
+  margin: 1rem auto 0;
+  text-align: center;
+  color: #525252;
+  font-size: 1.1rem;
+}
+
+.processGrid {
+  margin-top: 2.5rem;
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.processStep {
+  background: #ffffff;
+  border: 1px solid #c6c6c6;
+  border-top: 2px solid #0f62fe;
+  border-radius: 0;
+  padding: 1rem;
+}
+
+.processIndex {
+  font-size: 11px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #0f62fe;
+}
+
+.processText {
+  margin-top: 0.5rem;
+  color: #525252;
+}
+
+.apps {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 1.25rem;
+}
+
+.primaryApp {
+  min-height: 25rem;
+  border-radius: 1rem;
+  overflow: hidden;
+  position: relative;
+  background-image: url('/images/industrial/app-datacenter.svg');
+  background-size: cover;
+  background-position: center;
+}
+
+.primaryOverlay {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: end;
+  padding: 1.5rem;
+  background: linear-gradient(to top, rgba(26, 26, 26, 0.88), rgba(26, 26, 26, 0));
+  color: #ffffff;
+}
+
+.appStack {
+  display: grid;
+  gap: 1rem;
+}
+
+.appCard {
+  background: #ffffff;
+  border: 1px solid #c6c6c6;
+  border-radius: 0;
+  overflow: hidden;
+}
+
+.appVisual {
+  height: 10rem;
+  background-size: cover;
+  background-position: center;
+}
+
+.appBody {
+  padding: 1rem;
+}
+
+.appTitle {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #0f62fe;
+}
+
+.primarySummary {
+  margin-top: 0.75rem;
+  max-width: 48rem;
+  color: #e5e7eb;
+}
+
+.primaryExplore {
+  margin-top: 1.5rem;
+  display: inline-flex;
+  border-radius: 0;
+  background: #ffffff;
+  color: #0f62fe;
+  padding: 0.5rem 1.25rem;
+  font-size: 0.875rem;
+  font-weight: 600;
+}
+
+.insights {
+  display: grid;
+  gap: 2.5rem;
+  grid-template-columns: 2fr 1fr;
+}
+
+.article {
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid #c6c6c6;
+}
+
+.articleLabel {
+  font-size: 11px;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: #0f62fe;
+}
+
+.articleTitle {
+  margin-top: 0.75rem;
+  font-size: 1.875rem;
+  line-height: 1.2;
+  font-style: italic;
+}
+
+.signalPanel {
+  border-radius: 0;
+  border: 1px solid #c6c6c6;
+  background: #f4f4f4;
+  padding: 1.25rem;
+  align-self: start;
+}
+
+.cta {
+  margin-top: 5rem;
+  border-top: 1px solid #c6c6c6;
+  background: #ffffff;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.linkArrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: #0f62fe;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.ctaPrimary {
+  border-radius: 0;
+  background: #0f62fe;
+  color: #ffffff;
+  padding: 0.75rem 1.5rem;
+  font-size: 0.875rem;
+  font-weight: 600;
+}
+
+.ctaSecondary {
+  border-radius: 0;
+  border: 1px solid #0f62fe;
+  color: #1a1a1a;
+  padding: 0.75rem 1.5rem;
+  font-size: 0.875rem;
+  font-weight: 600;
+}
+
+@media (max-width: 1024px) {
+  .metricGrid,
+  .mediaStrip,
+  .products,
+  .processGrid,
+  .apps,
+  .insights {
+    grid-template-columns: 1fr;
+  }
+
+  .primaryApp {
+    min-height: 18rem;
+  }
+
+  .heroGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .heroMain {
+    text-align: center;
+  }
+
+  .heroActions {
+    justify-content: center;
+  }
+}
