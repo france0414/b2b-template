@@ -1,0 +1,8 @@
+<svg width="1200" height="700" viewBox="0 0 1200 700" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Aerospace tooling environment">
+  <rect width="1200" height="700" fill="#1e293b"/>
+  <path d="M90 540 C260 420, 470 380, 900 430 L1110 470 L1030 560 L240 620 Z" fill="#cbd5e1" opacity="0.45"/>
+  <rect x="160" y="120" width="220" height="120" rx="12" fill="#475569"/>
+  <rect x="440" y="170" width="240" height="110" rx="12" fill="#64748b"/>
+  <rect x="760" y="130" width="260" height="130" rx="12" fill="#475569"/>
+  <circle cx="980" cy="430" r="84" fill="#0ea5e9" opacity="0.35"/>
+</svg>
