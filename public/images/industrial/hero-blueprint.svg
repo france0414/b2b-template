@@ -1,0 +1,20 @@
+<svg width="1600" height="900" viewBox="0 0 1600 900" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Engineering blueprint details">
+  <rect width="1600" height="900" fill="#0f766e"/>
+  <rect x="80" y="80" width="1440" height="740" rx="20" fill="#134e4a"/>
+  <g stroke="#99f6e4" stroke-width="2" opacity="0.45">
+    <line x1="160" y1="180" x2="1440" y2="180"/>
+    <line x1="160" y1="280" x2="1440" y2="280"/>
+    <line x1="160" y1="380" x2="1440" y2="380"/>
+    <line x1="160" y1="480" x2="1440" y2="480"/>
+    <line x1="160" y1="580" x2="1440" y2="580"/>
+    <line x1="160" y1="680" x2="1440" y2="680"/>
+    <line x1="300" y1="130" x2="300" y2="770"/>
+    <line x1="500" y1="130" x2="500" y2="770"/>
+    <line x1="700" y1="130" x2="700" y2="770"/>
+    <line x1="900" y1="130" x2="900" y2="770"/>
+    <line x1="1100" y1="130" x2="1100" y2="770"/>
+    <line x1="1300" y1="130" x2="1300" y2="770"/>
+  </g>
+  <circle cx="460" cy="420" r="120" fill="none" stroke="#ccfbf1" stroke-width="8" opacity="0.85"/>
+  <rect x="720" y="320" width="420" height="220" rx="16" fill="none" stroke="#99f6e4" stroke-width="8" opacity="0.75"/>
+</svg>
